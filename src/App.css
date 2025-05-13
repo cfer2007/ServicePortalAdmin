@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+/* NavBar */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  background: #282c34;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
